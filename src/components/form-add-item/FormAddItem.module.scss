@@ -1,0 +1,33 @@
+.formContainer {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 20px;
+
+  .addForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    font-size: 14px;
+    background-color: #fff;
+    transition: border-color 0.2s;
+    margin-bottom: 15px;
+
+    &:focus {
+      outline: none;
+      border-color: #007bff;
+    }
+  }
+}
